@@ -1,0 +1,12 @@
+{
+  "name": "tsls-plugins",
+  "packageManager": "yarn@3.0.2",
+  "devDependencies": {
+    "svelte": "^3.44.1",
+    "svelte-language-server": "^0.14.11",
+    "typescript": "^4.4.4",
+    "typescript-language-server": "^0.6.5",
+    "typescript-plugin-css-modules": "^3.4.0",
+    "typescript-svelte-plugin": "^0.2.5"
+  }
+}

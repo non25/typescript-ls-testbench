@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    "strict": true,
+    "importsNotUsedAsValues": "error",
+    "sourceMap": true,
+    "allowJs": true,
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ],
+    "plugins": [
+      // {
+      //   "name": "typescript-plugin-css-modules"
+      // },
+      {
+        "name": "typescript-svelte-plugin"
+      }
+    ],
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ],
+}
